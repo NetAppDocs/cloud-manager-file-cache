@@ -1,11 +1,11 @@
 ---
 sidebar: sidebar
 permalink: whats-new.html
-keywords: what's new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes
-summary: Learn what's new in <service>.
+keywords: what's new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes, gfc, global file cache
+summary: Learn what's new in Global File Cache.
 ---
 
-= What's new with <service>
+= What's new with Global File Cache
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -13,46 +13,40 @@ summary: Learn what's new in <service>.
 :imagesdir: ./media/
 
 [.lead]
-Learn what's new in <service>.
+Learn what's new in Global File Cache.
 
-tag::whats-new[]
-== <date of release in the format dd month year like 28 Nov 2021>
+// tag::whats-new[]
+== 17 December 2021 (version 1.2.0)
 
-=== <feature title>
+=== The OpenSSL module has been upgraded to version 1.1.1l.
 
-<description>
+This is the latest version and it is more secure. This module is used for secure communication between GFC Edge and GFC Core.
 
-=== <feature title>
+=== The logging infrastructure has been enhanced.
 
-<description>
+== 9 June 2021 (version 1.1.0)
 
-== <date of release in the format dd month year like 28 Nov 2021>
+=== The "Edge Synchronization" feature has been added.
 
-=== <feature title>
+This feature keeps multiple Edges at a remote office in sync and the data is always cached/warm. When a file is flushed/fetched at one Edge, then the same file on all Edges participating in Edge Sync is updated and cached. See section 8.4 in the https://repo.cloudsync.netapp.com/gfc/Netapp%20GFC%20User%20Guide%201.1.0.pdf[NetApp Global File Cache User Guide^] for details.
 
-<description>
+=== The OpenSSL module has been upgraded to version 1.1.1k.
 
-=== <feature title>
+This is the latest version and it is more secure. This module is used for secure communication between GFC Edge and GFC Core.
 
-<description>
+=== Updated License Registration Page.
 
-== <date of release in the format dd month year like 28 Nov 2021>
+The GFC License Registration Page now displays the number of licenses when activated through a NetApp subscription.
 
-=== <feature title>
+== 21 March 2021 (version 1.0.3)
 
-<description>
+=== Software installer updates to automatically exclude GFC process from Windows Defender.
 
-=== <feature title>
+The Global File Cache software installer now excludes all GFC processes from Windows Defender software on-demand scanning.
 
-<description>
-end::whats-new[]
+=== A new Policy Configuration tab has been added to the Configuration Console.
 
-== <date of release in the format dd month year like 28 Nov 2021>
+This configuration tab enables you to add pre-population jobs from the GFC Core.
 
-=== <feature title>
-
-<description>
-
-=== <feature title>
-
-<description>
+=== Enhanced the software to use less memory while increasing performance and stability.
+// end::whats-new[]

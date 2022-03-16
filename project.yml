@@ -11,7 +11,11 @@ sidebar:
     - title: Global File Cache docs
       url: /index.html
     - title: Release notes
-      url: /whats-new.html
+      entries:
+        - title: What's new
+          url: /whats-new.html
+        - title: Fixed issues
+          url: /fixed-issues.html
     - title: Get started
       entries:
         - title: Learn about Global File Cache
@@ -42,20 +46,24 @@ homepage:
   tiles:
     - title: Get started
       links:
-        - title: title
-          url: page.html
-        - title: title
-          url: page.html
-        - title: title
-          url: page.html
-    - title: tile name
+        - title: Learn about Global File Cache
+          url: concept-gfc.html
+        - title: What’s New
+          url: whats-new.html
+        - title: Limitations
+          url: concept-gfc.html#limitations
+    - title: Deploy components
       links:
-        - title: title
-          url: page.html
-        - title: title
-          url: page.html
-        - title: title
-          url: page.html
+        - title: Deploy Cloud Volumes ONTAP as the storage platform
+          url: task-gfc-getting-started.html#deploy-cloud-volumes-ontap-as-your-storage-platform
+        - title: Deploy Global File Cache Management Server and Global File Cache Core
+          url: task-gfc-getting-started.html#enable-global-file-cache-in-your-working-environment
+        - title: Deploy Global File Cache Edge instances
+          url: task-deploy-gfc-edge-instances.html
+    - title: Train users
+      links:
+        - title: End-user training
+          url: concept-gfc-enduser-training.html
     - title: Blogs & community
       links:
         - title: NetApp Community
@@ -64,3 +72,7 @@ homepage:
           url: https://cloud.netapp.com/blog
         - title: Cloud webinars
           url: https://cloud.netapp.com/events
+    - title: Other resources
+      links:
+        - title: Cloud Central use cases
+          url: https://cloud.netapp.com/global-file-cache
