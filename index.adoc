@@ -1,0 +1,14 @@
+---
+layout: astra
+sidebar: sidebar
+permalink: index.html
+lead: Enable real-time global file sharing for your distributed workforce by using NetApp’s intelligent Global File Cache.
+summary: Enable real-time global file sharing for your distributed workforce by using NetApp’s intelligent Global File Cache.
+---
+
+= Global File Cache documentation
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
