@@ -1,7 +1,66 @@
 settings:
-  name: "Product Name"
+  name: "Global File Cache documentation"
   internal:
     pdf_enabled: true
   prod:
     pdf_enabled: true
-sidebar: 
+sidebar:
+  entries:
+    - title: Back to Cloud Manager documentation
+      url: https://docs.netapp.com/us-en/cloud-manager-family
+    - title: Global File Cache docs
+      url: /index.html
+    - title: Release notes
+      url: /whats-new.html
+    - title: Get started
+      entries:
+        - title: Learn about Global File Cache
+          url: /concept-gfc.html
+        - title: Global File Cache prerequisites
+          url: /concept-before-you-begin-to-deploy-gfc.html
+        - title: Deploy and license Global File Cache
+          url: /task-gfc-getting-started.html
+        - title: Global File Cache Edge prerequisites
+          url: /download-gfc-resources.html
+        - title: Deploy Global File Cache Edge
+          url: /task-deploy-gfc-edge-instances.html
+    - title: Use Global File Cache
+      entries:
+        - title: End-user training
+          url: /concept-gfc-enduser-training.html
+        - title: Additional information
+          url: /reference-gfc-additional-information.html
+    - title: Knowledge and support
+      entries:
+        - title: Register for support
+          url: /task-support-registration.html
+        - title: Get help
+          url: /task-get-help.html
+    - title: Legal notices
+      url: /legal-notices.html
+homepage:
+  tiles:
+    - title: Get started
+      links:
+        - title: title
+          url: page.html
+        - title: title
+          url: page.html
+        - title: title
+          url: page.html
+    - title: tile name
+      links:
+        - title: title
+          url: page.html
+        - title: title
+          url: page.html
+        - title: title
+          url: page.html
+    - title: Blogs & community
+      links:
+        - title: NetApp Community
+          url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS
+        - title: Cloud Central blog
+          url: https://cloud.netapp.com/blog
+        - title: Cloud webinars
+          url: https://cloud.netapp.com/events
