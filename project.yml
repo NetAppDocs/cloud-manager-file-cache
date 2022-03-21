@@ -1,5 +1,5 @@
 settings:
-  name: "Global File Cache documentation"
+  name: Global File Cache
   platform: cloud
   internal:
     pdf_enabled: true
@@ -7,7 +7,7 @@ settings:
     pdf_enabled: true
 sidebar:
   entries:
-    - title: Back to Cloud Manager documentation
+    - title: All Cloud Manager documentation
       url: https://docs.netapp.com/us-en/cloud-manager-family
     - title: Global File Cache docs
       url: /index.html
