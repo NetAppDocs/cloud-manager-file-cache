@@ -45,7 +45,7 @@ https://repo.cloudsync.netapp.com/gfc/Netapp%20GFC%20User%20Guide%201.1.0.pdf[Ne
 
 Depending on your requirements, you might need to deploy one or multiple Global File Cache Edge instances based on the concurrent user sessions in a branch office. The Edge instance presents the virtual file share to the end users within the branch office, which has been transparently extended from the associated Global File Cache Core instance. The Global File Cache Edge should contain a `D:\` NTFS volume, which contains the cached files within the branch office.
 
-NOTE: For the Global File Cache Edge, it is important to understand the link:concept-before-you-begin-to-deploy-gfc.html#sizing-guidelines[sizing guidelines^]. This will assist you in making the correct design for your Global File Cache deployment. You would also need to determine what’s right for your environment in terms of scale, availability of resources, and in terms of redundancy.
+NOTE: For the Global File Cache Edge, it is important to understand the link:concept-before-you-begin-to-deploy-gfc.html#sizing-guidelines[sizing guidelines]. This will assist you in making the correct design for your Global File Cache deployment. You would also need to determine what’s right for your environment in terms of scale, availability of resources, and in terms of redundancy.
 
 === Global File Cache Edge instance
 
@@ -67,7 +67,7 @@ When deploying a Global File Cache Edge instance, you need to provision a single
 
 Global File Cache Edge is designed to function across all platforms supporting Windows Server 2016 and 2019, bringing simplified IT to corporate remote offices and beyond. Critically, Global File Cache can be deployed on your existing hardware infrastructure, virtualization, or hybrid/public cloud environments in almost every case if they meet a few base-level requirements.
 
-Global File Cache Edge requires the following hardware and software resources to function optimally. For more information about overall sizing guidelines, see link:concept-before-you-begin-to-deploy-gfc.html#sizing-guidelines[Sizing guidelines].
+Global File Cache Edge requires the following hardware and software resources to function optimally. For more information about overall sizing guidelines, see link:concept-before-you-begin-to-deploy-gfc.html#sizing-guidelines[sizing guidelines].
 
 === Hardened server appliance
 
