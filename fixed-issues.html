@@ -629,7 +629,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-03-16 14:13:35 +0000">03/16/2022</time>
+    <time datetime="2022-05-19 17:55:40 +0000">05/19/2022</time>
     
   
 
@@ -655,6 +655,39 @@
 </div>
 </div>
 <div class="sect1">
+<h2 id="19-may-2022-version-1-3-0">19 May 2022 (version 1.3.0)</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>The Configuration UI page for Edge Sync functionality is updated.</p>
+</li>
+<li>
+<p>Fixed an issue when adding pre-population jobs for multiple Edges at the same time via PowerShell cmdlets.</p>
+</li>
+<li>
+<p>Fixed a display issue in LMS Web UI that displays the NetApp subscription.</p>
+</li>
+<li>
+<p>The LMS configuration PowerShell script now uses TLS 1.2.</p>
+</li>
+<li>
+<p>Fixed an issue in TappN (pre-population service) and enabled it to continue executing the job, despite transient disconnections or Tum restarts.</p>
+</li>
+<li>
+<p>The TappN pre-population service is updated to skip fetching files if free cache space falls below the lower threshold value.</p>
+</li>
+<li>
+<p>Fixed an issue in the License Manager Server Service (LMS) while writing a trace log.</p>
+</li>
+<li>
+<p>The Logging infrastructure for Tum is updated to be more scalable with high performance.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
 <h2 id="17-december-2021-version-1-2-0">17 December 2021 (version 1.2.0)</h2>
 <div class="sectionbody">
 <div class="ulist">
@@ -675,7 +708,7 @@
 <p>Fixed an exception in the LMS Service.</p>
 </li>
 <li>
-<p>Service Start types for LMS, LMC, and TappN Services are changed from 'Automatic Delayed' to 'Automatic'.</p>
+<p>Service Start types for the License Manager Server Service (LMS), License Manager Client Service (LMC), and Pre-population Service (TappN) are changed from 'Automatic Delayed' to 'Automatic'.</p>
 </li>
 </ul>
 </div>
