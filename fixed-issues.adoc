@@ -15,6 +15,17 @@ summary: See what issues have been fixed in Global File Cache.
 [.lead]
 See what issues have been fixed in Global File Cache.
 
+== 19 May 2022 (version 1.3.0)
+
+* The Configuration UI page for Edge Sync functionality is updated.
+* Fixed an issue when adding pre-population jobs for multiple Edges at the same time via PowerShell cmdlets.
+* Fixed a display issue in LMS Web UI that displays the NetApp subscription.
+* The LMS configuration PowerShell script now uses TLS 1.2.
+* Fixed an issue in TappN (pre-population service) and enabled it to continue executing the job, despite transient disconnections or Tum restarts.
+* The TappN pre-population service is updated to skip fetching files if free cache space falls below the lower threshold value.
+* Fixed an issue in the License Manager Server Service (LMS) while writing a trace log.
+* The Logging infrastructure for Tum is updated to be more scalable with high performance.
+
 == 17 December 2021 (version 1.2.0)
 
 * The Configuration UI (Optimus) is enhanced to validate the date field entries while adding pre-population jobs.
@@ -22,7 +33,7 @@ See what issues have been fixed in Global File Cache.
 * Removed the hard dependency of the License Management Server (LMS) Service running locally with Policy configuration.
 * The GFC Kernel driver is enhanced to avoid a crash in the SMB Server service in Windows Server 2016/2019.
 * Fixed an exception in the LMS Service.
-* Service Start types for LMS, LMC, and TappN Services are changed from 'Automatic Delayed' to 'Automatic'.
+* Service Start types for the License Manager Server Service (LMS), License Manager Client Service (LMC), and Pre-population Service (TappN) are changed from 'Automatic Delayed' to 'Automatic'.
 
 == 9 June 2021 (version 1.1.0)
 

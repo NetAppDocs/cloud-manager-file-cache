@@ -66,7 +66,7 @@ This configuration lets you deploy and manage the entire Global File Cache serve
 
 Global File Cache configurations are also supported with Cloud Volumes ONTAP, Cloud Volumes Service, Azure NetApp Files, and Amazon FSx for ONTAP systems installed on public cloud storage infrastructure. On-premises solutions are also available on NetApp AFF and FAS platforms. In these installations the Global File Cache server-side components must be configured and deployed manually, not using Cloud Manager.
 
-See the https://repo.cloudsync.netapp.com/gfc/Netapp%20GFC%20User%20Guide%201.1.0.pdf[NetApp Global File Cache User Guide^] for details.
+See the https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%201.3.0%20User%20Guide.pdf[NetApp Global File Cache User Guide^] for details.
 
 == How Global File Cache works
 
@@ -125,7 +125,7 @@ When you deploy your first Core instance in the datacenter or cloud, you can cho
 
 When you purchase additional Edge licenses or renew your subscription, our support/operations department updates the license details, for example, the number of sites or subscription end date. After the LMS queries the subscription service, the license details are automatically updated on the LMS instance and will apply to your GFC Core and Edge instances.
 
-See the https://repo.cloudsync.netapp.com/gfc/Netapp%20GFC%20User%20Guide%201.1.0.pdf[NetApp Global File Cache User Guide^] for additional details about licensing.
+See the https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%201.3.0%20User%20Guide.pdf[NetApp Global File Cache User Guide^] for additional details about licensing.
 
 == Limitations
 
