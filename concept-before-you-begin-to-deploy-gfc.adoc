@@ -40,7 +40,9 @@ There are a few sizing guideline ratios that you need to keep in mind when confi
 
 === Number of Edge Instances per Core Instance
 
-Our guidelines recommend up to 10 Edge instances per Global File Cache Core instance, with a maximum of 20 Edges per Global File Cache Core instance. This is dependent to a significant degree upon the type and mean file size of the most common workload. In some cases, with more common workloads you can add more Edge instances per Core, but in these cases you should contact NetApp Support to correctly size the number of Edge and Core instances depending on the types and sizes of the file sets.
+Our guidelines recommend up to 10 Edge instances per Global File Cache Core instance, with a maximum of 20 Edges per Global File Cache Core instance. This is dependent to a significant degree upon the type and mean file size of the most common workload. In some cases, with more common workloads you can add more Edge instances per Core, but in these cases you should contact your account representative to determine how to correctly size the number of Edge and Core instances depending on the types and sizes of the file sets.
+
+//Removed contact NetApp Support reference per KDA-1543 (https://jira.ngage.netapp.com/browse/KDA-1543).
 
 [NOTE]
 You can leverage multiple Global File Cache Edge and Core instances simultaneously to scale out your infrastructure depending on the requirements.
