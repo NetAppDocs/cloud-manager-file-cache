@@ -16,6 +16,10 @@ summary: Learn what's new in Global File Cache.
 Learn what's new in Global File Cache.
 
 // tag::whats-new[]
+== 23 June 2022 (version 1.3.1)
+
+Global File Cache Edge software for version 1.3.1 is available at https://docs.netapp.com/us-en/cloud-manager-file-cache/download-gfc-resources.html#download-required-resources[this page]. This release fixes the issues described in the https://docs.netapp.com/us-en/cloud-manager-file-cache/fixed-issues.html[Fixed Issues].
+
 == 19 May 2022 (version 1.3.0)
 
 Global File Cache Edge software for version 1.3.0 is available at https://docs.netapp.com/us-en/cloud-manager-file-cache/download-gfc-resources.html#download-required-resources[this page].
