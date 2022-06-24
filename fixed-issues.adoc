@@ -15,6 +15,12 @@ summary: See what issues have been fixed in Global File Cache.
 [.lead]
 See what issues have been fixed in Global File Cache.
 
+== 23 June 2022 (version 1.3.1)
+
+* Upon upgrade, the correct version of Microsoft re-distributable is not installed correctly and as a result Tum does not start. The GFC installer has been fixed to install the correct version re-distributable.
+* The GFC License Manager Service (LMS) now updates the configuration information, instead of overwriting it.
+* The Configuration UI now binds to the correct System.net.http dll during the upgrade process.
+
 == 19 May 2022 (version 1.3.0)
 
 * The Configuration UI page for Edge Sync functionality is updated.
