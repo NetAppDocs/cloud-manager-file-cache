@@ -605,7 +605,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-05-19 17:55:40 +0000">05/19/2022</time>
+    <time datetime="2022-07-27 13:42:17 +0000">07/27/2022</time>
     
   
 
@@ -688,7 +688,7 @@
 </ul>
 </div>
 <div class="paragraph">
-<p>The Global File Cache Core instance mounts to your corporate file shares hosted on your backend storage platform of choice (such as Cloud Volumes ONTAP, Cloud Volumes Service, and Azure NetApp Files) and creates the Global File Cache Fabric that provides the ability to centralize and consolidate unstructured data into a single set of data, whether it resides on one or multiple storage platforms in the public cloud.</p>
+<p>The Global File Cache Core instance mounts to your corporate file shares hosted on your backend storage platform of choice (such as Cloud Volumes ONTAP, Cloud Volumes Service, and Azure NetApp Files) and creates the Global File Cache "Fabric" that provides the ability to centralize and consolidate unstructured data into a single set of data, whether it resides on one or multiple storage platforms in the public cloud.</p>
 </div>
 <div class="paragraph">
 <p><span class="image"><img src="./media/diagram_gfc_image2.png" alt="A diagram showing the details of a Global File Cache deployment with software installed in remote offices and in a central server in the cloud."></span></p>
@@ -723,7 +723,7 @@
 <div class="sect2">
 <h3 id="manual-deployment-options">Manual deployment options</h3>
 <div class="paragraph">
-<p>Global File Cache configurations are also supported with Cloud Volumes ONTAP, Cloud Volumes Service, Azure NetApp Files, and Amazon FSx for ONTAP systems installed on public cloud storage infrastructure. On-premises solutions are also available on NetApp AFF and FAS platforms. In these installations the Global File Cache server-side components must be configured and deployed manually, not using Cloud Manager.</p>
+<p>Global File Cache configurations are also supported with Cloud Volumes ONTAP, Cloud Volumes Service, Azure NetApp Files, and Amazon FSx for ONTAP systems installed on public cloud storage infrastructure. On-premises solutions are also available on NetApp AFF and FAS platforms. In these installations, the Global File Cache server-side components must be configured and deployed manually, not using Cloud Manager.</p>
 </div>
 <div class="paragraph">
 <p>See the <a href="https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%201.3.0%20User%20Guide.pdf" target="_blank" rel="noopener">NetApp Global File Cache User Guide</a> for details.</p>
@@ -806,7 +806,7 @@
 <div class="ulist">
 <ul>
 <li>
-<p>All installations require that you deploy one or more volumes in the cloud (Cloud Volumes ONTAP, Cloud Volumes Service, or Azure NetApp Files). This results in charges from the selected cloud provider.</p>
+<p>All installations require that you deploy one or more volumes in the cloud (for example, Cloud Volumes ONTAP, Cloud Volumes Service, or Azure NetApp Files). This results in charges from the selected cloud provider.</p>
 </li>
 <li>
 <p>All installations also require that you deploy two or more virtual machines (VMs) in the cloud. This results in charges from the selected cloud provider.</p>
@@ -834,7 +834,17 @@
 </div>
 </li>
 <li>
-<p>When installed with Cloud Volumes ONTAP in Azure or AWS (the supported configurations deployed completely through Cloud Manager), there is a charge of $3,000 per site (for each Global File Cache Edge instance), per year.</p>
+<p>When installed with Cloud Volumes ONTAP in Azure or AWS (the supported configurations deployed completely through Cloud Manager), there are two pricing options:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>For Cloud Volumes ONTAP systems in Azure or AWS, you can pay $3,000 for each Global File Cache Edge instance, per year.</p>
+</li>
+<li>
+<p>Alternatively, for Cloud Volumes ONTAP systems in Azure, you can choose the Cloud Volumes ONTAP Edge Cache package. This capacity-based license allows you to deploy a single Global File Cache Edge instance for each 3 TiB of provisioned capacity. <a href="https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-licensing.html#capacity-based-licensing">Learn more here</a>.</p>
+</li>
+</ul>
+</div>
 </li>
 <li>
 <p>When installed using the manual deployment options the pricing is different. To see a high-level estimate of costs, see <a href="https://cloud.netapp.com/global-file-cache/roi" target="_blank" rel="noopener">Calculate Your Savings Potential</a> or consult your Global File Cache Solutions Engineer to discuss the best options for your enterprise deployment.</p>
@@ -867,10 +877,7 @@
 <p>The version of Global File Cache supported within Cloud Manager requires that the backend storage platform used as your central storage must be a working environment where you have deployed a Cloud Volumes ONTAP single node or HA pair in Azure or AWS.</p>
 </div>
 <div class="paragraph">
-<p>Other storage platforms and other cloud providers are not supported at this time using Cloud Manager, but can be deployed using legacy deployment procedures.</p>
-</div>
-<div class="paragraph">
-<p>These other configurations, for example, Global File Cache using Cloud Volumes ONTAP or Cloud Volumes Service on Microsoft Azure, Google Cloud, or AWS continue to be supported using the legacy procedures. See <a href="https://cloud.netapp.com/global-file-cache/onboarding" target="_blank" rel="noopener">Global File Cache overview and onboarding</a> for details.</p>
+<p>Other storage platforms and other cloud providers are not supported at this time using Cloud Manager, but can be deployed using legacy deployment procedures. These other configurations, for example, Global File Cache using Cloud Volumes ONTAP or Cloud Volumes Service on Google Cloud, Azure NetApp Files, or Amazon FSx for ONTAP systems, are supported using the legacy procedures. See <a href="https://cloud.netapp.com/global-file-cache/onboarding" target="_blank" rel="noopener">Global File Cache overview and onboarding</a> for details.</p>
 </div>
 </div>
 </div>
