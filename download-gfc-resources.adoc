@@ -43,6 +43,8 @@ https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%201.3.0%20User%20Gui
 
 link:task-deploy-gfc-edge-instances.html#update-global-file-cache-edge-software[Follow these steps] to upgrade your Global File Cache Edge software.
 
+NOTE: When deploying Global File Cache on a Windows Server 2016, you should be using .NET Framework 4.8.
+
 == Designing and deploying Global File Cache Edge
 
 Depending on your requirements, you might need to deploy one or multiple Global File Cache Edge instances based on the concurrent user sessions in a branch office. The Edge instance presents the virtual file share to the end users within the branch office, which has been transparently extended from the associated Global File Cache Core instance. The Global File Cache Edge should contain a `D:\` NTFS volume, which contains the cached files within the branch office.

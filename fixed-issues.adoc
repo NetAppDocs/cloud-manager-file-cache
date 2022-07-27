@@ -15,6 +15,16 @@ summary: See what issues have been fixed in Global File Cache.
 [.lead]
 See what issues have been fixed in Global File Cache.
 
+== 25 July 2022 (version 2.0)
+
+* Optimus is enhanced by adding boundary limits to date/time parameters for pre-population job addition configuration.
+* Optimus PSM now shows the correct CPU details in system pre-requisition details.
+* Fixed an exception in the UI during Edge Sync configuration between entering coordinator details and clicking the Refresh button.
+* Enhanced the Optimus UI to enable/disable the Edge Sync feature on the edge.
+* Fixed the date range issue in License Server Manager for Zuora License Aggregator.
+* Fixed the Optimus PSM to show Lease Count information.
+* Fixed License Management Server's logic on configuration updater during an upgrade.
+
 == 23 June 2022 (version 1.3.1)
 
 * Upon upgrade, the correct version of Microsoft re-distributable is not installed correctly and as a result Tum does not start. The GFC installer has been fixed to install the correct version re-distributable.
@@ -46,15 +56,3 @@ See what issues have been fixed in Global File Cache.
 * The Configuration UI now displays the Edge hostname correctly in the Edit Pre-population page.
 * An issue in parsing the json response from the NetApp License subscription server during license registration is fixed.
 * Pre-population (TappN) logs are enhanced to log the file transfer status of all the files.
-
-== 7 April 2021 (version 1.0.4)
-
-* A QoS issue has been fixed where QoS parameters were applied to _all_ users instead of just the user who surpassed the limits.
-* NSS credentials are now validated before being applied to the licensing system.
-* Race conditions between the GFC software and certain antivirus software have been fixed.
-* A crash no longer occurs when a locking hierarchy is violated during drop lease operations.
-
-== 21 March 2021 (version 1.0.3)
-
-* The NetApp license registration and GFC subscription-based registration is only allowed by the cloud-based License Management Server (LMS). The on-premises LMS should use legacy licensing.
-* The Configuration UI now adds jobs in pre-population when the License Manager Client Service (LMC) uses hostnames instead of IP address for the LMS during configuration.
